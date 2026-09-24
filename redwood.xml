@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <remote name="genie"
+            fetch="https://github.com/genie1997" />
+
+    <project path="device/xiaomi/redwood"
+             name="redwood_device"
+             remote="genie"
+             revision="infinity/seventeen"
+             clone-depth="1" />
+
+    <project path="vendor/xiaomi/redwood"
+             name="redwood_vendor"
+             remote="genie"
+             revision="seventeen"
+             clone-depth="1" />
+
+    <project path="device/xiaomi/redwood-kernel"
+             name="redwood_device-kernel"
+             remote="genie"
+             revision="vajra"
+             clone-depth="1" />
+
+    <project path="vendor/xiaomi/redwood-miuicamera"
+             name="redwood_miuicamera"
+             remote="genie"
+             revision="pinned-build-20260823"
+             clone-depth="1" />
+
+    <project path="hardware/dolby"
+             name="redwood_dolby"
+             remote="genie"
+             revision="infinity/dolby"
+             clone-depth="1" />
+
+    <project path="hardware/xiaomi"
+             name="redwood_hardware_xiaomi"
+             remote="genie"
+             revision="seventeen"
+             clone-depth="1" />
+
+</manifest>
