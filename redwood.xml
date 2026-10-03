@@ -40,4 +40,11 @@
              revision="seventeen"
              clone-depth="1" />
 
+    <remove-project name="packages_apps_GameSpace" />
+    <project path="packages/apps/GameSpace"
+             name="android_packages_apps_GameSpace"
+             remote="genie"
+             revision="lineage-23.2"
+             clone-depth="1" />
+
 </manifest>
