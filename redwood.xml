@@ -4,6 +4,9 @@
     <remote name="genie"
             fetch="https://github.com/genie1997" />
 
+    <remote name="redwood-aosp"
+            fetch="https://github.com/Redwood-AOSP" />
+
     <project path="device/xiaomi/redwood"
              name="redwood_device"
              remote="genie"
@@ -23,8 +26,8 @@
              clone-depth="1" />
 
     <project path="vendor/xiaomi/redwood-miuicamera"
-             name="redwood_miuicamera"
-             remote="genie"
+             name="android_vendor_xiaomi_redwood-miuicamera"
+             remote="redwood-aosp"
              revision="04af79d24baa8e001c728f5517dab242217c6944"
              clone-depth="1" />
 
