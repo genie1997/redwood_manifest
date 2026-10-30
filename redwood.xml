@@ -7,7 +7,7 @@
     <project path="device/xiaomi/redwood"
              name="redwood_device"
              remote="genie"
-             revision="093639d9aed3589b50fbfe80a3b4805a843df4cc"
+             revision="63f1d9c41cc61cb627e3a79d54a3fd1d6fc416f1"
              clone-depth="1" />
 
     <project path="vendor/xiaomi/redwood"
@@ -19,7 +19,7 @@
     <project path="device/xiaomi/redwood-kernel"
              name="redwood_device-kernel"
              remote="genie"
-             revision="38c4d7cff17bebd7afd3aee0504b46f1d30c2c7a"
+             revision="8f5a2544ccf85db99b352ce14a6c04bab226b5ff"
              clone-depth="1" />
 
     <project path="vendor/xiaomi/redwood-miuicamera"
@@ -45,6 +45,13 @@
              name="android_packages_apps_GameSpace"
              remote="genie"
              revision="d5fe1960302276659a938422a194bb724fddb25e"
+             clone-depth="1" />
+
+    <remove-project name="LineageOS/android_vendor_qcom_opensource_audio-hal_st-hal" />
+    <project path="vendor/qcom/opensource/audio-hal/st-hal"
+             name="android_vendor_qcom_opensource_audio-hal_st-hal"
+             remote="genie"
+             revision="36ce38a8892bfad11d7ff065db247f5cd6556f30"
              clone-depth="1" />
 
 </manifest>
