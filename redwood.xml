@@ -7,25 +7,25 @@
     <project path="device/xiaomi/redwood"
              name="redwood_device"
              remote="genie"
-             revision="63f1d9c41cc61cb627e3a79d54a3fd1d6fc416f1"
+             revision="dce39943a1eff31f1ab9cc0de960dba97424ad2f"
              clone-depth="1" />
 
     <project path="vendor/xiaomi/redwood"
              name="redwood_vendor"
              remote="genie"
-             revision="98427704e809161a130566c04346b8e4dfec4c67"
+             revision="407b2bd65787a40a02461c3fac992b4ce4ce4cef"
              clone-depth="1" />
 
     <project path="device/xiaomi/redwood-kernel"
              name="redwood_device-kernel"
              remote="genie"
-             revision="8f5a2544ccf85db99b352ce14a6c04bab226b5ff"
+             revision="b175918c951b2bd89e05315f899592542cfc3d13"
              clone-depth="1" />
 
     <project path="vendor/xiaomi/redwood-miuicamera"
              name="redwood_miuicamera"
              remote="genie"
-             revision="2e4c09b02c42a79600d133d9748f9e29b2e509dc"
+             revision="116cd0a5371cf5f59957963e917723434a4c53ec"
              clone-depth="1" />
 
     <project path="hardware/dolby"
@@ -44,7 +44,7 @@
     <project path="packages/apps/GameSpace"
              name="android_packages_apps_GameSpace"
              remote="genie"
-             revision="d5fe1960302276659a938422a194bb724fddb25e"
+             revision="3fc7f7b48cbd34f0b5eca3019644c33851b8ba47"
              clone-depth="1" />
 
     <remove-project name="LineageOS/android_vendor_qcom_opensource_audio-hal_st-hal" />
