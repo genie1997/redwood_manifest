@@ -25,7 +25,7 @@
     <project path="vendor/xiaomi/redwood-miuicamera"
              name="redwood_miuicamera"
              remote="genie"
-             revision="116cd0a5371cf5f59957963e917723434a4c53ec"
+             revision="d1df4fbbd947d8677d92d2bdbf9b56474f329254"
              clone-depth="1" />
 
     <project path="hardware/dolby"
