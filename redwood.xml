@@ -7,7 +7,7 @@
     <project path="device/xiaomi/redwood"
              name="redwood_device"
              remote="genie"
-             revision="dce39943a1eff31f1ab9cc0de960dba97424ad2f"
+             revision="8ce39f1b7c24c5e2c8e940b825c36662a9e26177"
              clone-depth="1" />
 
     <project path="vendor/xiaomi/redwood"
@@ -19,7 +19,7 @@
     <project path="device/xiaomi/redwood-kernel"
              name="redwood_device-kernel"
              remote="genie"
-             revision="b175918c951b2bd89e05315f899592542cfc3d13"
+             revision="5a26070ee78315df65135630d2a43d4f54296180"
              clone-depth="1" />
 
     <project path="vendor/xiaomi/redwood-miuicamera"
